@@ -1,4 +1,23 @@
 body{
-    background-color: red;
     
+
+}
+
+#Calculator-body{
+    background-color: #07393C;
+}
+
+.Special-Keys{
+    background-color: #2C666E;
+    color: #F0EDEE;
+}
+
+.numbers{
+    background-color: #2C666E;
+    color: #F0EDEE;
+}
+
+.Operations{
+    background-color: #90DDF0;
+    color: #0A090C;
 }
