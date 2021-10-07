@@ -14,8 +14,8 @@ Also this is a basic proyect I do to learn the basic tecnologies of the full-sta
 * Css 
 * JavaScript
 
-![Dinosaur](./dinosaur.png)
-
 ## Proyect status 
 
 In development...
+
+![Dinosaur](./dinosaur.png)

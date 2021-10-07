@@ -28,6 +28,7 @@ body{
     grid-column: 1 / span 4 ;
     height: 85px;
     border-radius: 30px;
+    font-size: 40px;
 }
 
 .common{
