@@ -32,23 +32,4 @@ if(firstValue){
 	
 }
 
-function equalAction(){
-	switch (operator) {
-		case 0:
-			answer = valueA+valueB;
-			break;
-		case 1:
-			answer = valueA-valueB;
-			break;
-		case 2:
-			answer = valueA*valueB;
-			break;
-		case 3:
-			answer = valueA/valueB;
-			break;
-		default:
-			
-		
-	}
-}
 
