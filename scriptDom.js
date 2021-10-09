@@ -25,6 +25,7 @@ const mult = document.getElementById('smult');
 const divi = document.getElementById('sdivi');
 const equals = document.getElementById('equal');
 const allClear = document.getElementById('allClear');
+const comma = document.getElementById(',');
 
 let screenInput = document.getElementById('theScreen')
 
@@ -48,6 +49,7 @@ mult.onclick = TimeToMulti;
 divi.onclick = TimeToDivi;
 equals.onclick = TimeToEqual;
 allClear.onclick = emptyVariables;
+comma.onclick = addComma;
 
 
 //Functions for numbers
@@ -100,7 +102,9 @@ function writeScreen5(){
         screenInput.value = '';
         writing = true;
     }
+    console.log(screenInput.value );
     screenInput.value = screenInput.value + 5;
+    console.log(screenInput.value );
 }
 function writeScreen6(){
     if(screenInput.value===''){
@@ -152,7 +156,17 @@ function writeScreen0(){
     }
     screenInput.value = screenInput.value + 0;
 }
-
+function addComma(){
+    if(!writing){
+        screenInput.value = '';
+        writing = true;
+    }
+    console.log(screenInput.value);
+    let StringSpecial = screenInput.value.toString(10);
+    console.log(StringSpecial + 'String special');
+    screenInput.value = StringSpecial + '.';
+    console.log(screenInput.value);
+}
 //Operation functions
 function TimeToSum(){
     writing = false;
