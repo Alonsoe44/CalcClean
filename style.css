@@ -12,7 +12,7 @@ body{
 #Calculator-body{
     margin: 0 auto;
     background-color: #07393C;
-    height: 100vh;
+    height: auto;
     width: 16em;
     
 }
