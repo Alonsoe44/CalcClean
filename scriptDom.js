@@ -6,7 +6,7 @@ let operator = NaN;
 let writing = true;
 let stringValue = '';
 //Numbers
-let n1 = document.getElementById('number1');
+const n1 = document.getElementById('number1');
 const n2 = document.getElementById('number2');
 const n3 = document.getElementById('number3');
 const n4 = document.getElementById('number4');
@@ -161,11 +161,10 @@ function addComma(){
         screenInput.value = '';
         writing = true;
     }
-    console.log(screenInput.value);
-    let StringSpecial = screenInput.value.toString(10);
-    console.log(StringSpecial + 'String special');
-    screenInput.value = StringSpecial + '.';
-    console.log(screenInput.value);
+    screenInput.dir = 'ltr';
+    screenInput.value = screenInput.value + '.';
+    screenInput.dir = 'rtl';
+    
 }
 //Operation functions
 function TimeToSum(){
